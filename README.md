@@ -105,6 +105,8 @@ Customer_Micro_Trend_Segmentation/
 ```bash
 git clone https://github.com/yourusername/Customer_Micro_Trend_Segmentation.git
 cd Customer_Micro_Trend_Segmentation
+```bash
+
 2️⃣ Create & Activate Virtual Environment
 python -m venv venv
 .\venv\Scripts\Activate.ps1

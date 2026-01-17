@@ -105,79 +105,90 @@ Customer_Micro_Trend_Segmentation/
 ```bash
 git clone https://github.com/yourusername/Customer_Micro_Trend_Segmentation.git
 cd Customer_Micro_Trend_Segmentation
-2️⃣ Create & Activate Virtual Environment
+```
+
+### 2️⃣ Create & Activate Virtual Environment
+
+```bash
 python -m venv venv
 .\venv\Scripts\Activate.ps1
+```
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Run the Data Pipeline
+### 4️⃣ Run the Data Pipeline
+```bash
 python -m scripts.run_pipeline
+```
 
+### ➡ This generates:
 
-➡ This generates:
-
+```bash
 data/processed/customer_micro_trend_segments.csv
+```
 
-5️⃣ Launch the Dashboard
+### 5️⃣ Launch the Dashboard
+```bash
 streamlit run dashboard/dashboard.py
+```
 
-📁 Output File Description
+### 📁 Output File Description
 
-customer_micro_trend_segments.csv contains:
+- customer_micro_trend_segments.csv contains:
 
-Customer behavioral metrics
+- Customer behavioral metrics
 
-Cluster labels (K-Means & DBSCAN)
+- Cluster labels (K-Means & DBSCAN)
 
-Marketing action suggestions
+- Marketing action suggestions
 
-Example columns:
+## Example columns:
 
-CustomerID
-total_orders
-avg_order_value
-night_ratio
-weekend_ratio
-category_diversity
-kmeans_cluster
-dbscan_cluster
-marketing_action
+- CustomerID
+- total_orders
+- avg_order_value
+- night_ratio
+- weekend_ratio
+- category_diversity
+- kmeans_cluster
+- dbscan_cluster
+- marketing_action
 
-💡 Business Use Cases
+## 💡 Business Use Cases
 
-Personalized marketing campaigns
+- Personalized marketing campaigns
 
-Targeted discount strategies
+- Targeted discount strategies
 
-Customer retention analysis
+- Customer retention analysis
 
-Identifying VIP and at-risk customers
+- Identifying VIP and at-risk customers
 
-Retail demand optimization
+- Retail demand optimization
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
-Real-time data ingestion
+- Real-time data ingestion
 
-Model deployment on cloud
+- Model deployment on cloud
 
-Advanced recommendation engine
+- Advanced recommendation engine
 
-Customer lifetime value (CLV) prediction
+- Customer lifetime value (CLV) prediction
 
-A/B testing for marketing strategies
+- A/B testing for marketing strategies
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
 👨‍💻 Author
 
-Saurabh Mishra
-B.E. Computer Science Engineering
+#### Saurabh Mishra
+B.E. Computer Science Engineering  
 Passionate about AI, Data Science & Intelligent Systems
 
 ⭐ If you like this project, don’t forget to star the repository!
-```
